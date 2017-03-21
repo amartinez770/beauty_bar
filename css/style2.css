@@ -1,7 +1,13 @@
 *{
-	font-family:'helvetica';
+	font-family:'Sybil Green';
 	color:#333;
 	box-sizing: border-box;
+}
+body {
+	background-image: url(img/green.png);
+	background-size: 100% auto;
+	background-attachment: fixed;
+	background-position: top center;
 }
 
 nav
@@ -9,14 +15,55 @@ nav
 header {
 	position: relative;
 	height:60px;
-	background-color: #383F51;
+	background-color: #F564A9;
 }
 
 #logo{
 	height:100%;
 	padding:5px;
 	
+} 
+
+#green {
+	background-image: url(img/green.jpg);
+	background-size: 100% auto;
+	background-attachment: fixed;
+	background-position: center center;
+	padding: 80px 0px 0px 0px;
+	text-align: center;
+	text-shadow: 0px 2px 10px #000;
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
+
+/*call to action*/
+.cta {
+	background-image: url(img/green.jpg);
+	background-size: 100% auto;
+	background-attachment: fixed;
+	background-position: center center;
+	text-align: center;
+	width: 100%;
+}
+
+.ctaeffect {
+	background-image: url(img/green.jpg);
+	background-size: 100% auto;
+	background-attachment: fixed;
+	background-position: center center;
+	opacity: .75;
+	width: 100%;
+	padding: 60px;
+}
+
+.ctaaeffect h2,
+.ctaeffect:hover {
+	opacity: 1.0!important;
+}
+
 
 nav{
 	position:absolute;
@@ -50,20 +97,20 @@ nav ul li ul{
 }
 
 nav a{
-	color:#DDDBF1;
-	background-color: #383F51;
+	color:#2C0A54;
+	background-color: #F564A9;
 	background: linear-gradient(90deg #DDDBF1,#DDDBF1 30%);
 	text-decoration: none;
 	padding:10px;
 	display: block;
 	width:100px;
 	text-align: center;
-	border:1px solid #DDDBF1;
+	border:1px solid #2C0A54;
 }
 
 nav a:hover{
-	background: #DDDBF1;
-	color: #383F51;
+	background: #2C0A54;
+	color: #fff;
 }
 
 
@@ -71,7 +118,8 @@ nav a:hover{
 #mainContent{
 	width:960px;
 	margin:0px auto 0px auto;
-	background-color: #DDDBF1;
+	background-color: #D1BEB0;
+    font-family:'arial'
 }
 
 #mainContent div{
@@ -87,6 +135,7 @@ nav a:hover{
 
 .firstpara, td {
 	color:#3C4F76;
+    font-family:'arial';
 }
 
 td{
@@ -108,14 +157,14 @@ td[rowspan="2"] ~ td {
 .btn, .btn:focus, .btn:visited, .btn:active {
 	display:inline-block;
 	padding:10px;
-	background-color:#383F51;
-	color:#fff;
+	background-color:#F564A9;
+	color:#2C0A54;
 	text-decoration: none;
 }
 
 .btn:hover{
-	background-color: #fff;
-	color:#383F51;
+	background-color: #2C0A54;
+	color:#fff;
 }
 
 
@@ -136,7 +185,7 @@ td[rowspan="2"] ~ td {
 }
 
 tr{
-	background-color: #fff;
+	background-color: #2C0A54;
 }
 
 tr:nth-child(1){
@@ -144,7 +193,7 @@ tr:nth-child(1){
 }
 
 tr:nth-child(odd){
-	background-color: #DDDBF1;
+	background-color: #D1BEB0;
 }
 
 #mainContent > div > div{
